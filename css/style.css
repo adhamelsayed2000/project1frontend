@@ -29,3 +29,124 @@
         color: white;
     }
    
+/* contact*/
+#contact{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+#contact #p1{
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+#contact hr{
+    background-color:#c1c1c1;
+}
+#contact #p2{
+padding: 20px;
+}
+#contact #form input{
+    width: 98%;
+    height: 45px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 8px;
+border-color:silver;
+border-style:solid;
+text-align: left;
+font-size: 15px;
+}
+#contact button{
+    color: white;
+    background-color: black;
+    padding: 12px;
+    margin: 20px;
+    border-style: none;
+    font-size: 15px;
+}
+#contact button:hover{
+    color: black;
+    background-color:silver;
+    padding: 12px;
+    margin: 20px;
+    border-style: none;
+    font-size: 15px;
+   
+
+    }
+
+main{
+    margin: 10px 20px;
+}
+/********txt about*******/
+#txtabout h3{
+    padding: 25px 25px;
+}
+#txtabout p{
+    padding: 0px 25px;
+}
+.teamwork{
+    margin-left: 50px;
+    margin-top: 35px;
+    width: 20%;
+    float: left;
+
+}
+.teamwork .imgteamwork{
+    width: 100%;
+}
+.teamwork h3{
+    padding:10px 0px ;
+}
+.teamwork p span{
+    color: #c1c1c1;
+}
+.teamwork p{
+    padding-top: 10px;
+}
+.teamwork .buttuncontact{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px 0px;
+    border: none;
+}
+.teamwork .buttuncontact:hover{
+    background-color: #c1c1c1;
+}
+nav  {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    text-shadow:2px #fdfdfd17 ;
+    background-color: white;
+
+    
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: black;
+    padding: 15px 15px ;
+    text-decoration: none ;
+
+}
+nav ul li a:hover{
+    background-color: rgba(98, 92, 92, 0.239);
+    color: black;
+}
+#nav{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+header{
+    position: relative;
+}
+.above{
+    position: absolute;
+    top:100px;
+    left:100px;
+    color:white ;
+    background-color: black;
+}
+
