@@ -43,3 +43,40 @@ main{
 .teamwork .buttuncontact:hover{
     background-color: #c1c1c1;
 }
+nav  {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    text-shadow:2px #fdfdfd17 ;
+    background-color: white;
+
+    
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: black;
+    padding: 15px 15px ;
+    text-decoration: none ;
+
+}
+nav ul li a:hover{
+    background-color: rgba(98, 92, 92, 0.239);
+    color: black;
+}
+#nav{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+header{
+    position: relative;
+}
+.above{
+    position: absolute;
+    top:100px;
+    left:100px;
+    color:white ;
+    background-color: black;
+}
+
