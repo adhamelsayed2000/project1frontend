@@ -48,3 +48,42 @@ font-size: 15px;
    
 
     }
+
+main{
+    margin: 10px 20px;
+}
+/********txt about*******/
+#txtabout h3{
+    padding: 25px 25px;
+}
+#txtabout p{
+    padding: 0px 25px;
+}
+.teamwork{
+    margin-left: 50px;
+    margin-top: 35px;
+    width: 20%;
+    float: left;
+
+}
+.teamwork .imgteamwork{
+    width: 100%;
+}
+.teamwork h3{
+    padding:10px 0px ;
+}
+.teamwork p span{
+    color: #c1c1c1;
+}
+.teamwork p{
+    padding-top: 10px;
+}
+.teamwork .buttuncontact{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px 0px;
+    border: none;
+}
+.teamwork .buttuncontact:hover{
+    background-color: #c1c1c1;
+}
